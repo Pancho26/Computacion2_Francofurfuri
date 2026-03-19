@@ -1,3 +1,7 @@
+#python3 buscar.py import buscar.py
+
+#hola .
+
 import argparse
 import sys
 from pathlib import Path
