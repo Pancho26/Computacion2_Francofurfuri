@@ -1,3 +1,9 @@
+#python3 suma.py 5 10
+
+
+
+
+
 import sys
 
 
