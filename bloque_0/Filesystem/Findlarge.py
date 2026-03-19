@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#python3 Findlarge.py /var/log --min-size 1M --type f
 
 import os
 import sys

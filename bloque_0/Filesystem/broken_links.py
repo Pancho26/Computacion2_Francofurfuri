@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#python3 broken_links.py /home/franco    python3 broken_links.py /home/franco --quiet    python3 broken_links.py /home/franco --delete
 
 import os
 import sys

@@ -1,3 +1,7 @@
+#python3 genpass.py --length 12
+
+
+
 import argparse
 import secrets
 import string

@@ -1,3 +1,10 @@
+#python3 tareas.py --add "Estudiar"
+#python3 tareas.py --list
+
+
+
+
+
 import argparse
 import json
 import sys

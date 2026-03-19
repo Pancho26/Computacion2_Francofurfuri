@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#python3 Inspector.py /etc/passwd
 
 import os
 import sys

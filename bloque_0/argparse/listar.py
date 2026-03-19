@@ -1,3 +1,6 @@
+#python3 listar.py .
+
+
 import argparse
 import sys
 from pathlib import Path

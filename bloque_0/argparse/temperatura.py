@@ -1,3 +1,5 @@
+#python3 temperatura.py 25 -t fahrenheit
+
 import argparse
 import sys
 
