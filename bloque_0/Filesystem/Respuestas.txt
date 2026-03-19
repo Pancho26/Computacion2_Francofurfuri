@@ -1,0 +1,27 @@
+Ejercicio 1.1 – Investigando tu sistema
+
+¿Cuántos archivos hay directamente en /etc?
+Comando usado: find /etc -maxdepth 1 -type f | wc -l
+Resultado: 93 archivos
+
+¿Cuál es el tamaño exacto de /etc/passwd?
+Comando usado: stat -c %s /etc/passwd
+Resultado: 2954 bytes
+
+¿Qué tipo de archivo es /dev/null? ¿Por qué es especial?
+Comando usado: file /dev/null
+Resultado: archivo especial de caracteres
+
+Explicación: Es especial porque actúa como un sumidero de datos; toda la información que se escribe en él se descarta y no se almacena.
+
+¿A dónde apunta el enlace simbólico /bin?
+Comando usado: readlink /bin
+Resultado: /usr/bin
+
+¿Cuál es el número de inodo de tu archivo .bashrc?
+Comando usado: ls -i ~/.bashrc
+Resultado: 2621443
+
+¿Cuántos enlaces duros tiene el directorio /home? ¿Por qué?
+Comando usado: ls -ld /home
+Resultado: 3 enlaces duros
